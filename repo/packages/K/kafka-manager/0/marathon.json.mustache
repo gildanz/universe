@@ -29,6 +29,7 @@
       "timeoutSeconds": 5
     }
   ],
+  "acceptedResourceRoles": ["slave_public"],
   "env": {
     "ZK_HOSTS": "{{kafka-manager.zk}}",
     "KM_ARGS": "-Dkafka-manager.base-zk-path=/{{service.name}}",
